@@ -449,7 +449,7 @@
         					<?php 
 
                                 $type = $form["type"]?:"text";
-        						$types = base_path('vendor/crocodicstudio/crudbooster/src/views/default/type_components/'.$type.'/info.json');
+        						$types = base_path('packages/crudbooster/src/views/default/type_components/'.$type.'/info.json');
         						$types = file_get_contents($types);
         						$types = json_decode($types);     
 
